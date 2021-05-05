@@ -8,7 +8,7 @@ However I was surprised to find that there's no way to recursively search all th
 
 This fixes that!
 
-## Requirements:
+## Requirements
 
 This script requires that you have [gitleaks](https://github.com/zricethezav/gitleaks) and jq installed. Follow the instructions on the gitleaks page for installation. For jq, just emerge|apt-get|yum|whatever in your favorite distro.
 
@@ -22,7 +22,7 @@ More info about generating access tokens can be [found here](https://docs.github
 
 $ ./gitleaks-by-user.sh noid23
 
-## TODO:
+## TODO
 
 - [ ] Add multi output support - TSV, CSV, JSON, Text
 - [ ] Add support for searching organizations
